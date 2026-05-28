@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{743E4CBD-52AA-4773-BEF8-A3CCFC8292AB}|NeuralNetwork.vcxproj|C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\NeuralNetwork.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{743E4CBD-52AA-4773-BEF8-A3CCFC8292AB}|NeuralNetwork.vcxproj|solutionrelative:NeuralNetwork.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743E4CBD-52AA-4773-BEF8-A3CCFC8292AB}|NeuralNetwork.vcxproj|C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\Layer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{743E4CBD-52AA-4773-BEF8-A3CCFC8292AB}|NeuralNetwork.vcxproj|solutionrelative:Layer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{743E4CBD-52AA-4773-BEF8-A3CCFC8292AB}|NeuralNetwork.vcxproj|C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\Neuron.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{743E4CBD-52AA-4773-BEF8-A3CCFC8292AB}|NeuralNetwork.vcxproj|solutionrelative:Neuron.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 914,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 226,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Neuron.h",
+              "DocumentMoniker": "C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\Neuron.h",
+              "RelativeDocumentMoniker": "Neuron.h",
+              "ToolTip": "C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\Neuron.h",
+              "RelativeToolTip": "Neuron.h",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-28T11:28:46.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Layer.h",
+              "DocumentMoniker": "C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\Layer.h",
+              "RelativeDocumentMoniker": "Layer.h",
+              "ToolTip": "C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\Layer.h",
+              "RelativeToolTip": "Layer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-28T11:28:10.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NeuralNetwork.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\NeuralNetwork.cpp",
+              "RelativeDocumentMoniker": "NeuralNetwork.cpp",
+              "ToolTip": "C:\\Users\\\u0411\u0435\u043B\u044F\u0435\u0432 \u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\NeuralNetwork\\NeuralNetwork.cpp",
+              "RelativeToolTip": "NeuralNetwork.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-26T07:50:23.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 226,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 69,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
