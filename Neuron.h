@@ -5,8 +5,6 @@
 class Neuron
 {
 public:
-
-	double value, actValue;
 	enum activationFunctionTypes
 	{
 		Identity = 0,
@@ -22,16 +20,37 @@ public:
 		SELU = 10,
 		LeakyReLU = 11,
 		PReLU = 12,
-		xxx = 13,
+		xxx = 13,//TODO
 		SiLU = 14,
 		ELiSH = 15,
 		Gaussian = 16,
 		Sinusoid = 17
 	};
-	void activationFunction(activationFunctionTypes type = LogisticSigmoid, double alpha = 1)
+
+	Neuron(double defaultValue, activationFunctionTypes type)
+	{
+		this->value = defaultValue;
+		this->actValue = 0.0;
+		this->activationFunctionType = type;
+	}
+	Neuron()
+	{
+		this->value = 0.0;
+		this->actValue = 0.0;
+		this->activationFunctionType = this->Softsign;
+	}
+	~Neuron()
+	{
+
+	}
+
+	double value, actValue;
+	int activationFunctionType;
+
+	void activationFunction(double alpha = 1)
 	{
 		double v = this->value;
-		switch (type)
+		switch (activationFunctionType)
 		{
 		case Identity:
 			this->actValue = v;
