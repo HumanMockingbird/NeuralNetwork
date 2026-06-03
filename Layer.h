@@ -5,17 +5,17 @@
 class Layer
 {
 public:
-	Layer(size_t neuronsAmount, size_t weightsMatrixRows, size_t weightsMatrixCols, double weightsDefaultValue)
+	Layer(size_t neuronsAmount, size_t weightsMatrixRows, size_t weightsMatrixCols, double weightsDefaultValue, Neuron::activationFunctionTypes type)
 	{
 		this->neuronsAmount = neuronsAmount;
 		neuronsVector = new Neuron[neuronsAmount];
 		for (size_t i = 0; i < neuronsAmount; i++)
 		{
-			neuronsVector[i] = Neuron(0.0, Neuron::activationFunctionTypes::Identity);
+			neuronsVector[i] = Neuron(0.0, type);
 		}
 
-		this->weightsMatrix = Matrix(weightsMatrixRows, weightsMatrixCols, weightsDefaultValue);
-		this->weightsMatrix.Out();
+		this->weightsMatrix = new Matrix(weightsMatrixRows, weightsMatrixCols, weightsDefaultValue);
+		(*weightsMatrix).Out();
 	}
 	~Layer()
 	{

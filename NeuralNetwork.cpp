@@ -1,7 +1,5 @@
 ﻿#include <iostream>
-#include <vector>
-#include "Neuron.h"
-#include "Layer.h"
+#include "NeuralNetwork.h"
 using namespace std;
 
 int main()
@@ -21,5 +19,33 @@ int main()
 	//A.Out();
 	//B.Out();
 	//C.Out();// 19 22 // 43 50
-	Layer(3, 3, 2, 1.0);
+	//Layer(3, 3, 2, 1.0, Neuron::activationFunctionTypes::LogisticSigmoid);
+
+	size_t layers = 2;
+	size_t* layersSize = new size_t[layers];
+	layersSize[0] = 3;
+	layersSize[1] = 1;
+	Neuron::activationFunctionTypes* layersActivationFunctions = new Neuron::activationFunctionTypes[layers];
+	layersActivationFunctions[0] = Neuron::activationFunctionTypes::Identity;
+	layersActivationFunctions[1] = Neuron::activationFunctionTypes::Softsign;
+	double* weightsDefaultValues = new double[layers];
+	weightsDefaultValues[0] = 1.0;
+	weightsDefaultValues[1] = 1.0;//Рандомить, если будет передано -1?
+
+	NeuralNetwork nn = NeuralNetwork(layers, layersSize, layersActivationFunctions, weightsDefaultValues);
+	nn.ProcessLayers();
+	
+	size_t teachIterations = 1000;
+	for (size_t i = 0; i < teachIterations; i++)
+	{
+		nn.Input();
+		nn.ProcessLayers();
+		nn.Teach();
+	}
+	nn.Out();
+
+	delete[]layersSize;
+	delete[]layersActivationFunctions;
+	delete[]weightsDefaultValues;
+	return 0;
 }

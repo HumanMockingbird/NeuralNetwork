@@ -32,16 +32,18 @@ public:
 		this->value = defaultValue;
 		this->actValue = 0.0;
 		this->activationFunctionType = type;
+		std::cout << "Created Neuron [" << value << "], f(" << activationFunctionType << ")" << std::endl;
 	}
 	Neuron()
 	{
 		this->value = 0.0;
 		this->actValue = 0.0;
 		this->activationFunctionType = this->Softsign;
+		std::cout << "Created Neuron [" << value << "], f(" << activationFunctionType << ")" << std::endl;
 	}
 	~Neuron()
 	{
-
+		std::cout << "Deleted Neuron [" << value << "], f(" << activationFunctionType << ")" << std::endl;
 	}
 
 	double value, actValue;

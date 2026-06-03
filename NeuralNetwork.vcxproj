@@ -128,6 +128,7 @@
   <ItemGroup>
     <ClInclude Include="Layer.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="NeuralNetwork.h" />
     <ClInclude Include="Neuron.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

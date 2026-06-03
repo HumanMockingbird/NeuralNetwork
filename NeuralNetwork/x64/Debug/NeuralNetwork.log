@@ -1,6 +1,2 @@
 ﻿  NeuralNetwork.cpp
-C:\Users\Беляев Сергей\source\repos\NeuralNetwork\Layer.h(9,2): error C2512: Matrix: нет подходящего конструктора по умолчанию
-  (компиляция исходного файла "NeuralNetwork.cpp")
-      C:\Users\Беляев Сергей\source\repos\NeuralNetwork\Matrix.h(2,7):
-       см. объявление "Matrix"
-  
+  NeuralNetwork.vcxproj -> C:\Users\Беляев Сергей\source\repos\NeuralNetwork\x64\Debug\NeuralNetwork.exe
